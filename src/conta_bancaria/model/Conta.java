@@ -89,6 +89,6 @@ public class Conta {
 		System.out.printf("Agencia da conta: %d%n", this.agencia);
 		System.out.printf("Tipo da conta: %s%n", tipo);
 		System.out.printf("Titular da conta: %s%n", this.titular);
-		System.out.printf("Saldo da conta: %.2f%n", this.saldo);
+		System.out.printf("Saldo da conta: R$ %.2f%n", this.saldo);
 	}
 }
