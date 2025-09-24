@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import conta_bancaria.model.Conta;
 import conta_bancaria.model.ContaCorrente;
+import conta_bancaria.model.ContaPoupanca;
 import conta_bancaria.util.Cores;
 
 
@@ -40,6 +41,12 @@ public class Menu {
 		
 		cc1.depositar(5000.00f);
 		cc1.visualizar();
+		
+		ContaPoupanca cp1 = new ContaPoupanca(3, 456, 2, "Igor Marcelino", 1000000.00f, 02);
+		
+		cp1.visualizar();
+		cp1.setAniversario(26);
+		cp1.visualizar();
 		
 		System.out.println(Cores.ANSI_BLACK_BACKGROUND+Cores.TEXT_GREEN_BOLD +
 				"\n*******************************************************");
